@@ -5,7 +5,7 @@ class phptest extends PHPUnit_Framework_TestCase
 {
 public function  escribir(){
 	$persona = new personas();
-	$expected = "feliz año viejo";
+	$expected = "feliz año nuevo";
 	$actual = $persona->talk();
 	$this->asserEquals($expected, $actual);
       }
