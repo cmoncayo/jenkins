@@ -1,9 +1,12 @@
-<html>
- <head>
-  <title>Prueba de PHP</title>
- </head>
- <body>
- <?php echo '<p>Hola Mundo como estan todos </p>'; ?>
-	<p>hola</p>
- </body>
-</html>
+<?php
+class Personas{
+    protected $nombre;
+public function getNombre(){
+	return $this->nombre;
+	}
+public function setNombre($nombre){
+	$this->nombre 0 $nombre;
+public function talk(){
+	return "feliz año nuevo";
+	}
+    }
