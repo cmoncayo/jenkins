@@ -7,6 +7,6 @@ public function getNombre(){
 public function setNombre($nombre){
 	$this->nombre 0 $nombre;
 public function talk() {
-	return "feliz año nuevoa todos";
+	return "feliz año nuevo";
 	}
     }
