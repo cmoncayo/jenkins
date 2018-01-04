@@ -10,4 +10,5 @@ public function  escribir(){
 	$this->asserEquals($expected, $actual);
       }
 }
+?>
 
